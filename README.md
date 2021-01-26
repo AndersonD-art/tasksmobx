@@ -25,7 +25,7 @@
 
 :small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#-linguagens-dependencias-e-libs-utilizadas)
 
-:small_blue_diamond: [Desenvolvedores/Contribuintes](#-desenvolvedores/contribuintes)
+:small_blue_diamond: [Desenvolvedores Contribuintes](#-desenvolvedores-contribuintes)
 
 :small_blue_diamond: [Autor](#-autor)
 
@@ -101,7 +101,7 @@ Na tela de tarefas, podemos incluir uma tarefa no campo tarefa, note que o mesmo
 - [Lab: Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-## 👨‍💻 Desenvolvedores/Contribuintes
+## 👨‍💻 Desenvolvedores Contribuintes
 
 Um super thanks 👏 para Daniel Ciolfi pela inspiração.
 
