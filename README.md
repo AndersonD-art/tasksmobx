@@ -31,7 +31,7 @@
 
 --- 
 
-## 💻 Descrição do projeto 
+💻 ## Descrição do projeto 
 
 <p align="justify">
   Projeto realizado em Flutter, referente a um gerenciador de tarefas utilizando o banco de dados local SQFlite e a gerencia de estados MOBx. 
