@@ -23,6 +23,8 @@
 
 :small_blue_diamond: [Como execultar a aplicação](#-como-execultar-a-aplicação)
 
+:small_blue_diamond: [Casos de uso](#-casos-de-uso)
+
 :small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#-linguagens-dependencias-e-libs-utilizadas)
 
 :small_blue_diamond: [Desenvolvedores Contribuintes](#-desenvolvedores-contribuintes)
