@@ -96,6 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         await _listStore.addTask();
                                         _listStore.loadTask();
                                         textController.clear();
+                                        _listStore.newTodoTitle = "";
                                         FocusScope.of(context).unfocus();
                                       },
                                     )
