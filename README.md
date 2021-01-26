@@ -21,17 +21,17 @@
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
-:small_blue_diamond: [Como execultar a aplicação](#Como-execultar-a-aplicação)
+:small_blue_diamond: [Como execultar a aplicação](#como-execultar-a-aplicação)
 
-:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#Linguagens-dependencias-e-libs-utilizadas)
+:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#linguagens-dependencias-e-libs-utilizadas)
 
-:small_blue_diamond: [Desenvolvedores/Contribuintes](#Desenvolvedores/Contribuintes)
+:small_blue_diamond: [Desenvolvedores/Contribuintes](#desenvolvedores/contribuintes)
 
-:small_blue_diamond: [Autor](#Autor)
+:small_blue_diamond: [Autor](#autor)
 
 --- 
 
-💻 ## Descrição do projeto 
+## 💻 Descrição do projeto 
 
 <p align="justify">
   Projeto realizado em Flutter, referente a um gerenciador de tarefas utilizando o banco de dados local SQFlite e a gerencia de estados MOBx. 
