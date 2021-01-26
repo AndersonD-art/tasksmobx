@@ -15,7 +15,7 @@
 
 :small_blue_diamond: [Descrição do projeto](#-descrição-do-projeto)
 
-:small_blue_diamond: [Funcionalidades](#-funcionalidades)
+:small_blue_diamond: <a href="#-funcionalidades">Funcionalidades</a>
 
 :small_blue_diamond: [Layout da Aplicação](#-layout)
 
