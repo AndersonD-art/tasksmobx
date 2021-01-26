@@ -68,7 +68,9 @@
 ## 🎯 Pré-requisitos
 
 :warning: [Flutter](https://flutter.dev/docs/get-started/install)
+
 :warning: [Android Studio](https://developer.android.com/studio)
+
 :warning: [Vscode](https://code.visualstudio.com/download)
 
 ---
@@ -83,16 +85,15 @@ git clone https://github.com/AndersonD-art/tasksmobx.git
 
 ---
 
-## 📊 Casos de uso
+## 📌 Casos de uso
 
-Projeto inspirado no desenvolvedor e no youtuber Daniel Ciolfi - https://www.youtube.com/channel/UCigaGpaR1tyjIEU0AfIcg1Q. O mesmo possui excelentes cursos na Udemy.
+👍 Projeto inspirado no desenvolvedor e youtuber Daniel Ciolfi - https://www.youtube.com/channel/UCigaGpaR1tyjIEU0AfIcg1Q. O mesmo possui excelentes cursos na Udemy.
 
-Trata-se de um gerenciador de tarefas simples, porém que utiliza o banco de dados SQFlite para a persistencia de dados e o MOBx para realizar a gerencia de estados.
+💬 Trata-se de um gerenciador de tarefas simples, porém que utiliza o banco de dados SQFlite para a persistencia de dados e o MOBx para realizar a gerencia de estados.
 
-De inicio o mesmo era abrir uma splash screen e logo após o tela de login, necessario informar um e-mail válido e uma senha com mais de 3 caracteres pois o mesmo realizar estas validações,
-após informar email e senha válidos o botão de login ira ficar habilitado.
+💬 De inicio o mesmo era abrir uma splash screen e logo após o tela de login, necessario informar um e-mail válido e uma senha com mais de 3 caracteres pois o mesmo realizar estas         validações, após informar email e senha válidos o botão de login ira ficar habilitado.
 
-Na tela de tarefas, podemos incluir uma tarefa no campo tarefa, note que o mesmo somente habilita o botão de add '+' quando o campo não está vazio, após inforama a tarefa e clicar no '+', a mesma ira aparece abaixo, sendo ordenada pela data e hora. Para editar ou atualizar uma tarefa basta clicar no icone do lapis, para excluir bastar arastar a tarefa para o lado direito. após a exclusão sera mostrado um snackbar com a opção de desfazer a exclusão.
+💬 Na tela de tarefas, podemos incluir uma tarefa no campo tarefa, note que o mesmo somente habilita o botão de add '+' quando o campo não está vazio, após inforama a tarefa e clicar no '  +', a mesma ira aparece abaixo, sendo ordenada pela data e hora. Para editar ou atualizar uma tarefa basta clicar no icone do lapis, para excluir bastar arastar a tarefa para o lado direito. após a exclusão sera mostrado um snackbar com a opção de desfazer a exclusão.
 
 ---
 
@@ -100,6 +101,8 @@ Na tela de tarefas, podemos incluir uma tarefa no campo tarefa, note que o mesmo
 
 - [Lab: Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+---
 
 ## 👨‍💻 Desenvolvedores Contribuintes
 
