@@ -8,26 +8,34 @@
 </p>
 
 > Status do Projeto: :heavy_check_mark: (concluido)
+---
 
-### Tópicos 
+### 📖 Tópicos 
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Layout da Aplicação](#Layout)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
-:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+:small_blue_diamond: [Como execultar a aplicação](#Como-execultar-a-aplicação)
 
-... 
+:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#Linguagens-dependencias-e-libs-utilizadas)
+
+:small_blue_diamond: [Desenvolvedores/Contribuintes](#Desenvolvedores/Contribuintes)
+
+:small_blue_diamond: [Autor](#Autor)
+
+--- 
 
 ## 💻 Descrição do projeto 
 
 <p align="justify">
-  Projeto realizado em Flutter, sobre um gerenciador de tarefas utilizando o banco de dados local SQFlite e a gerencia de estados MOBx. 
+  Projeto realizado em Flutter, referente a um gerenciador de tarefas utilizando o banco de dados local SQFlite e a gerencia de estados MOBx. 
 </p>
+---
 
 ## ⚙️ Funcionalidades
 
@@ -39,51 +47,71 @@
 
 :heavy_check_mark: persistência de dados com SQFlite e gerencia de estado com MOBx. 
 
+---
+
 ## 🎨 Layout 
 
 <p align="center">
 ![Splash](https://user-images.githubusercontent.com/77983152/105763282-60afbc80-5f34-11eb-918e-e2e43d232385.png)
+![Login](https://user-images.githubusercontent.com/77983152/105848445-bf6d4880-5fbd-11eb-8b9c-8d2eb0569744.png)
+![Login_Validação](https://user-images.githubusercontent.com/77983152/105848494-cd22ce00-5fbd-11eb-898e-184c2977ef91.png)
+![Tarefas](https://user-images.githubusercontent.com/77983152/105848533-da3fbd00-5fbd-11eb-84b6-f5a9ef8a6d21.png)
 </p>
-... 
+---
 
-## Pré-requisitos
+## 🎯 Pré-requisitos
 
-:warning: [Node](https://nodejs.org/en/download/)
+:warning: [Flutter](https://flutter.dev/docs/get-started/install)
+:warning: [Android Studio](https://developer.android.com/studio)
+:warning: [Vscode](https://code.visualstudio.com/download)
 
-...
+---
 
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
+## ▶️ Como execultar a aplicação
 
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
+git clone https://github.com/AndersonD-art/tasksmobx.git
 ```
 
-... 
+---
 
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
+## 📊 Casos de uso
 
+Projeto inspirado no desenvolvedor e no youtuber Daniel Ciolfi - https://www.youtube.com/channel/UCigaGpaR1tyjIEU0AfIcg1Q. O mesmo possui excelentes cursos na Udemy.
 
-## Casos de Uso
+Trata-se de um gerenciador de tarefas simples, porém que utiliza o banco de dados SQFlite para a persistencia de dados e o MOBx para realizar a gerencia de estados.
 
-Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso de **gifs** aqui seria bem interessante. 
+De inicio o mesmo era abrir uma splash screen e logo após o tela de login, necessario informar um e-mail válido e uma senha com mais de 3 caracteres pois o mesmo realizar estas validações,
+após informar email e senha válidos o botão de login ira ficar habilitado.
 
-Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
+Na tela de tarefas, podemos incluir uma tarefa no campo tarefa, note que o mesmo somente habilita o botão de add '+' quando o campo não está vazio, após inforama a tarefa e clicar no '+', a mesma ira aparece abaixo, sendo ordenada pela data e hora. Para editar ou atualizar uma tarefa basta clicar no icone do lapis, para excluir bastar arastar a tarefa para o lado direito. após a exclusão sera mostrado um snackbar com a opção de desfazer a exclusão.
 
-## 🛠 Linguagens, dependencias e libs utilizadas :books:
+---
+
+## 🛠 Linguagens, dependencias e libs utilizadas
 
 - [Lab: Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-## Desenvolvedores/Contribuintes :octocat:
+## 👨‍💻 Desenvolvedores/Contribuintes
 
-Liste o time responsável pelo desenvolvimento do projeto
+Um super thanks 👏 para Daniel Ciolfi pela inspiração.
 
-| [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |  [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |  [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |
-| :---: | :---: | :---: 
+---
 
-## Licença 
+## 🎓 Autor
+
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/77983152?s=460&u=f61c18670116cb318cdf26e7523643a6dccb5680&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Anderson David</b></sub> ☕
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-AndersonDavid-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-david-ti)](https://www.linkedin.com/in/anderson-david-ti) 
+[![Hotmail Badge](https://img.shields.io/badge/-andersondavidti@hotmail.com-c14438?style=flat-square&logo=Hotmail&logoColor=white&link=mailto:andersondavidti@hotmail.com)](mailto:andersondavidti@hotmail.com)
+
+## 📝 Licença 
 
 The [MIT License]() (MIT)
 
