@@ -12,7 +12,7 @@
 
 ### 📖 Tópicos 
 
-:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+:small_blue_diamond: [Descrição do projeto](#💻descrição-do-projeto)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
@@ -51,6 +51,11 @@
 
 ## 🎨 Layout 
 
+<p align="center">
+  <img alt="Splash" title="#Splash" src="https://user-images.githubusercontent.com/77983152/105763282-60afbc80-5f34-11eb-918e-e2e43d232385.png" width="200px">
+
+  <img alt="Login" title="#Login" src="(https://user-images.githubusercontent.com/77983152/105848445-bf6d4880-5fbd-11eb-8b9c-8d2eb0569744.png" width="200px">
+</p>
 <p align="center">
 ![Splash](https://user-images.githubusercontent.com/77983152/105763282-60afbc80-5f34-11eb-918e-e2e43d232385.png)
 ![Login](https://user-images.githubusercontent.com/77983152/105848445-bf6d4880-5fbd-11eb-8b9c-8d2eb0569744.png)
