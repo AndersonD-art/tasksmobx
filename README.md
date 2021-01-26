@@ -13,21 +13,21 @@
 
 ### 📖 Tópicos 
 
-:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+:small_blue_diamond: [Descrição do projeto](#-descrição-do-projeto)
 
-:small_blue_diamond: [Funcionalidades](#funcionalidades)
+:small_blue_diamond: [Funcionalidades](#-funcionalidades)
 
-:small_blue_diamond: [Layout da Aplicação](#Layout)
+:small_blue_diamond: [Layout da Aplicação](#-layout)
 
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+:small_blue_diamond: [Pré-requisitos](#-pré-requisitos)
 
-:small_blue_diamond: [Como execultar a aplicação](#como-execultar-a-aplicação)
+:small_blue_diamond: [Como execultar a aplicação](#-como-execultar-a-aplicação)
 
-:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#linguagens-dependencias-e-libs-utilizadas)
+:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#-linguagens-dependencias-e-libs-utilizadas)
 
-:small_blue_diamond: [Desenvolvedores/Contribuintes](#desenvolvedores/contribuintes)
+:small_blue_diamond: [Desenvolvedores/Contribuintes](#-desenvolvedores/contribuintes)
 
-:small_blue_diamond: [Autor](#autor)
+:small_blue_diamond: [Autor](#-autor)
 
 --- 
 
@@ -116,6 +116,8 @@ Um super thanks 👏 para Daniel Ciolfi pela inspiração.
 
 [![Linkedin Badge](https://img.shields.io/badge/-AndersonDavid-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-david-ti)](https://www.linkedin.com/in/anderson-david-ti) 
 [![Hotmail Badge](https://img.shields.io/badge/-andersondavidti@hotmail.com-c14438?style=flat-square&logo=Hotmail&logoColor=white&link=mailto:andersondavidti@hotmail.com)](mailto:andersondavidti@hotmail.com)
+
+---
 
 ## 📝 Licença 
 
