@@ -1,6 +1,7 @@
 <h1>Lista de Tarefas com Mobx e SQFlite</h1> 
 
 <p align="center">
+  <img src="https://img.shields.io/static/v1?label=dart&message=language&color=blue&style=for-the-badge&logo=DART"/>  
   <img src="https://img.shields.io/static/v1?label=flutter&message=framework&color=blue&style=for-the-badge&logo=FLUTTER"/>  
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>   
   <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>  
@@ -12,7 +13,7 @@
 
 ### 📖 Tópicos 
 
-:small_blue_diamond: [Descrição do projeto](#💻descrição-do-projeto)
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
@@ -35,6 +36,7 @@
 <p align="justify">
   Projeto realizado em Flutter, referente a um gerenciador de tarefas utilizando o banco de dados local SQFlite e a gerencia de estados MOBx. 
 </p>
+
 ---
 
 ## ⚙️ Funcionalidades
