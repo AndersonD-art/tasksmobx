@@ -92,7 +92,7 @@ git clone https://github.com/AndersonD-art/tasksmobx.git
 
 💬 Trata-se de um gerenciador de tarefas simples, porém que utiliza o banco de dados SQFlite para a persistencia de dados e o MOBx como gerencia de estados.
 
-💬 De inicio ira surgi uma tela de splash screen, esta tela possui uma imagem e uma animação feita em flare. Logo após surgirá a tela de login, necessario informar um e-mail válido e uma senha com mais de 3 caracteres pois o mesmo realizar validações referentes ao e-mail e senha, estando tudo correto o botão de login será habilitado.
+💬 De inicio ira surgi uma tela de splash screen, esta tela possui uma imagem e uma animação feita em flare. Logo após surgirá a tela de login, necessario informar um e-mail válido e uma senha com mais de 3 caracteres pois o mesmo realizar validações referentes ao e-mail e senha, estando tudo correto o botão de login será habilitado. Podemos também visualizar a senha clicando no icone de um olho a frente da senha, note que ao pressionar o icone ira mudar e a senha será revelada, e pressionando mais uma vez o icone retornará para o inicial e a senha será novamente ocultada.
 
 💬 Após o login validado a tela de tarefas(home) ira surgir, podemos incluir uma tarefa no campo tarefa, note que o mesmo somente habilita o botão de add '+' quando o campo não está vazio, após informar a tarefa e clicar no '+', a mesma ira aparece abaixo, sendo ordenada pela data e hora. Para editar ou atualizar uma tarefa basta clicar no icone do lapis, para excluir bastar arastar a tarefa para o lado direito. após a exclusão sera mostrado um snackbar com a opção de desfazer a exclusão.
 
@@ -117,7 +117,7 @@ Um super thanks 👏 para Daniel Ciolfi pela inspiração.
  <br />
  <sub><b>Anderson David</b></sub> ☕
  <br />
- 
+
 [![Linkedin Badge](https://img.shields.io/badge/-AndersonDavid-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-david-ti)](https://www.linkedin.com/in/anderson-david-ti) 
 [![Hotmail Badge](https://img.shields.io/badge/-andersondavidti@hotmail.com-c14438?style=flat-square&logo=Hotmail&logoColor=white&link=mailto:andersondavidti@hotmail.com)](mailto:andersondavidti@hotmail.com)
 
