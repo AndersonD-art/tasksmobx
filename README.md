@@ -94,7 +94,7 @@ git clone https://github.com/AndersonD-art/tasksmobx.git
 
 💬 De inicio ira surgi uma tela de splash screen, esta tela possui uma imagem e uma animação feita em flare. Logo após surgirá a tela de login, necessario informar um e-mail válido e uma senha com mais de 3 caracteres pois o mesmo realizar validações referentes ao e-mail e senha, estando tudo correto o botão de login será habilitado.
 
-💬 Após o login validado a tela de tarefas(home) ira surgir, podemos incluir uma tarefa no campo tarefa, note que o mesmo somente habilita o botão de add '+' quando o campo não está vazio, após inforama a tarefa e clicar no '+', a mesma ira aparece abaixo, sendo ordenada pela data e hora. Para editar ou atualizar uma tarefa basta clicar no icone do lapis, para excluir bastar arastar a tarefa para o lado direito. após a exclusão sera mostrado um snackbar com a opção de desfazer a exclusão.
+💬 Após o login validado a tela de tarefas(home) ira surgir, podemos incluir uma tarefa no campo tarefa, note que o mesmo somente habilita o botão de add '+' quando o campo não está vazio, após informar a tarefa e clicar no '+', a mesma ira aparece abaixo, sendo ordenada pela data e hora. Para editar ou atualizar uma tarefa basta clicar no icone do lapis, para excluir bastar arastar a tarefa para o lado direito. após a exclusão sera mostrado um snackbar com a opção de desfazer a exclusão.
 
 ---
 
