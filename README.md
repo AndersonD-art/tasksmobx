@@ -90,11 +90,11 @@ git clone https://github.com/AndersonD-art/tasksmobx.git
 
 👍 Projeto inspirado no desenvolvedor e youtuber Daniel Ciolfi - https://www.youtube.com/channel/UCigaGpaR1tyjIEU0AfIcg1Q. O mesmo possui excelentes cursos na Udemy.
 
-💬 Trata-se de um gerenciador de tarefas simples, porém que utiliza o banco de dados SQFlite para a persistencia de dados e o MOBx para realizar a gerencia de estados.
+💬 Trata-se de um gerenciador de tarefas simples, porém que utiliza o banco de dados SQFlite para a persistencia de dados e o MOBx como gerencia de estados.
 
-💬 De inicio o mesmo era abrir uma splash screen e logo após o tela de login, necessario informar um e-mail válido e uma senha com mais de 3 caracteres pois o mesmo realizar estas         validações, após informar email e senha válidos o botão de login ira ficar habilitado.
+💬 De inicio ira surgi uma tela de splash screen, esta tela possui uma imagem e uma animação feita em flare. Logo após surgirá a tela de login, necessario informar um e-mail válido e uma senha com mais de 3 caracteres pois o mesmo realizar validações referentes ao e-mail e senha, estando tudo correto o botão de login será habilitado.
 
-💬 Na tela de tarefas, podemos incluir uma tarefa no campo tarefa, note que o mesmo somente habilita o botão de add '+' quando o campo não está vazio, após inforama a tarefa e clicar no '  +', a mesma ira aparece abaixo, sendo ordenada pela data e hora. Para editar ou atualizar uma tarefa basta clicar no icone do lapis, para excluir bastar arastar a tarefa para o lado direito. após a exclusão sera mostrado um snackbar com a opção de desfazer a exclusão.
+💬 Após o login validado a tela de tarefas(home) ira surgir, podemos incluir uma tarefa no campo tarefa, note que o mesmo somente habilita o botão de add '+' quando o campo não está vazio, após inforama a tarefa e clicar no '+', a mesma ira aparece abaixo, sendo ordenada pela data e hora. Para editar ou atualizar uma tarefa basta clicar no icone do lapis, para excluir bastar arastar a tarefa para o lado direito. após a exclusão sera mostrado um snackbar com a opção de desfazer a exclusão.
 
 ---
 
@@ -117,7 +117,6 @@ Um super thanks 👏 para Daniel Ciolfi pela inspiração.
  <br />
  <sub><b>Anderson David</b></sub> ☕
  <br />
-
 [![Linkedin Badge](https://img.shields.io/badge/-AndersonDavid-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-david-ti)](https://www.linkedin.com/in/anderson-david-ti) 
 [![Hotmail Badge](https://img.shields.io/badge/-andersondavidti@hotmail.com-c14438?style=flat-square&logo=Hotmail&logoColor=white&link=mailto:andersondavidti@hotmail.com)](mailto:andersondavidti@hotmail.com)
 
