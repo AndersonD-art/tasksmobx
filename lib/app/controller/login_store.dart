@@ -1,5 +1,4 @@
 import 'package:mobx/mobx.dart';
-
 part 'login_store.g.dart';
 
 class LoginStore = _LoginStore with _$LoginStore;
@@ -35,7 +34,7 @@ abstract class _LoginStore with Store {
       .hasMatch(email);
 
   @computed
-  Function get loginPressed =>
+  Function? get loginPressed =>
       (isEmailValid && isPasswordValid && !loading) ? login : null;
 
   @observable

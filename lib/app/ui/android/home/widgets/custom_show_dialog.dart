@@ -7,7 +7,7 @@ class CustomShowDialog extends StatelessWidget {
 
   final TodoModel task;
 
-  CustomShowDialog({Key key, this.task}) : super(key: key);
+  CustomShowDialog({Key? key, required this.task}) : super(key: key);
 
   final ListStore _listStore = ListStore();
 

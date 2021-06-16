@@ -6,7 +6,7 @@ part 'list_store.g.dart';
 class ListStore = _ListStore with _$ListStore;
 
 abstract class _ListStore with Store {
-  TodoRepository _todoRepository;
+  late TodoRepository _todoRepository;
 
   _ListStore() {
     _todoRepository = TodoRepository();
@@ -22,7 +22,7 @@ abstract class _ListStore with Store {
   }
 
   @observable
-  ObservableList tasks;
+  late ObservableList tasks;
 
   @observable
   String newTodoTitle = "";
@@ -42,7 +42,7 @@ abstract class _ListStore with Store {
   bool get isListValid => listModel.isNotEmpty;
 
   @action
-  addTask({TodoModel recover, TodoModel edit}) async {
+  addTask({TodoModel? recover, TodoModel? edit}) async {
     final repository = TodoRepository();
     tasks = ObservableList();
     if (recover == null && edit == null) {
@@ -64,7 +64,7 @@ abstract class _ListStore with Store {
     } else {
       tasks = await repository.update(
         TodoModel(
-          id: edit.id,
+          id: edit!.id,
           name: edit.name,
           date: edit.date,
         ),
@@ -73,7 +73,7 @@ abstract class _ListStore with Store {
   }
 
   @action
-  Future updateTask({TodoModel edit}) async {
-    tasks = await _todoRepository.update(edit);
+  Future updateTask({TodoModel? edit}) async {
+    tasks = await _todoRepository.update(edit!);
   }
 }

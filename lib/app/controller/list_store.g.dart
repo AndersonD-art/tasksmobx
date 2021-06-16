@@ -9,14 +9,14 @@ part of 'list_store.dart';
 // ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
 
 mixin _$ListStore on _ListStore, Store {
-  Computed<bool> _$isFormValidComputed;
+  Computed<bool>? _$isFormValidComputed;
 
   @override
   bool get isFormValid =>
       (_$isFormValidComputed ??= Computed<bool>(() => super.isFormValid,
               name: '_ListStore.isFormValid'))
           .value;
-  Computed<bool> _$isListValidComputed;
+  Computed<bool>? _$isListValidComputed;
 
   @override
   bool get isListValid =>
@@ -86,7 +86,7 @@ mixin _$ListStore on _ListStore, Store {
   final _$addTaskAsyncAction = AsyncAction('_ListStore.addTask');
 
   @override
-  Future addTask({TodoModel recover, TodoModel edit}) {
+  Future addTask({TodoModel? recover, TodoModel? edit}) {
     return _$addTaskAsyncAction
         .run(() => super.addTask(recover: recover, edit: edit));
   }
@@ -94,7 +94,7 @@ mixin _$ListStore on _ListStore, Store {
   final _$updateTaskAsyncAction = AsyncAction('_ListStore.updateTask');
 
   @override
-  Future<dynamic> updateTask({TodoModel edit}) {
+  Future<dynamic> updateTask({TodoModel? edit}) {
     return _$updateTaskAsyncAction.run(() => super.updateTask(edit: edit));
   }
 

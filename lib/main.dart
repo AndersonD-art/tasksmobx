@@ -4,7 +4,7 @@ import 'package:tarefas/app/ui/android/login/login_screen.dart';
 import 'package:tarefas/app/ui/android/splash/splash_screen.dart';
 import 'package:tarefas/app/routes/app_routes.dart';
 
-void main() => runApp(SplashScreenPage());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -17,9 +17,11 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.orange[900],
       ),
       routes: {
-        AppRoutes.INITIAL: (ctx) => LoginScreen(),
+        AppRoutes.INITIAL: (ctx) => SplashScreenPage(),
+        AppRoutes.LOGIN: (ctx) => LoginScreen(),
         AppRoutes.HOME: (ctx) => HomeScreen(),
       },
+      initialRoute: AppRoutes.INITIAL,
     );
   }
 }

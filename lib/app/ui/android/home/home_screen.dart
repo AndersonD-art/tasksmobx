@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final TextEditingController textController = TextEditingController();
 
-  ListStore _listStore;
+  late ListStore _listStore;
 
   @override
   initState() {
@@ -159,7 +159,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                           _ultimaTarefaRemovida =
                                               _listStore.listModel;
                                           _listStore.dellTask(
-                                              _listStore.listModel[index].id);
+                                              _listStore.listModel[index].id!);
                                           _listStore.loadTask();
 
                                           ScaffoldMessenger.of(context)

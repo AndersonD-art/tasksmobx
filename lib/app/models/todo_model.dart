@@ -7,11 +7,11 @@ String todoModelToJson(TodoModel data) => json.encode(data.toJson());
 class TodoModel {
   TodoModel({
     this.id,
-    this.name,
-    this.date,
+    required this.name,
+    required this.date,
   });
 
-  int id;
+  int? id;
   String name;
   String date;
 

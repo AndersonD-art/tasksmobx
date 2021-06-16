@@ -15,7 +15,7 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   LoginStore loginStore = LoginStore();
 
-  ReactionDisposer disposer;
+  late ReactionDisposer disposer;
 
   @override
   void didChangeDependencies() {
@@ -104,24 +104,23 @@ class _LoginScreenState extends State<LoginScreen> {
                           return SizedBox(
                             height: 44,
                             child: ElevatedButton(
-                              style: ElevatedButton.styleFrom(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(32),
+                                style: ElevatedButton.styleFrom(
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(32),
+                                  ),
+                                  primary: Theme.of(context).primaryColor,
+                                  onSurface: Theme.of(context)
+                                      .primaryColor
+                                      .withAlpha(100),
+                                  onPrimary: Colors.white,
                                 ),
-                                primary: Theme.of(context).primaryColor,
-                                onSurface: Theme.of(context)
-                                    .primaryColor
-                                    .withAlpha(100),
-                                onPrimary: Colors.white,
-                              ),
-                              child: loginStore.loading
-                                  ? CircularProgressIndicator(
-                                      valueColor:
-                                          AlwaysStoppedAnimation(Colors.white),
-                                    )
-                                  : Text('Login'),
-                              onPressed: loginStore.loginPressed,
-                            ),
+                                child: loginStore.loading
+                                    ? CircularProgressIndicator(
+                                        valueColor: AlwaysStoppedAnimation(
+                                            Colors.white),
+                                      )
+                                    : Text('Login'),
+                                onPressed: () => loginStore.loginPressed),
                           );
                         })
                       ],
