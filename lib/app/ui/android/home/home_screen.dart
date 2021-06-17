@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                       onPressed: () {
                         Navigator.of(context).pushReplacementNamed(
-                          AppRoutes.INITIAL,
+                          AppRoutes.LOGIN,
                         );
                       },
                     ),

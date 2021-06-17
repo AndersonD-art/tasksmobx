@@ -44,11 +44,11 @@ mixin _$ListStore on _ListStore, Store {
   @override
   ObservableList<dynamic> get tasks {
     _$tasksAtom.reportRead();
-    return super.tasks;
+    return super.tasks!;
   }
 
   @override
-  set tasks(ObservableList<dynamic> value) {
+  set tasks(ObservableList<dynamic>? value) {
     _$tasksAtom.reportWrite(value, super.tasks, () {
       super.tasks = value;
     });

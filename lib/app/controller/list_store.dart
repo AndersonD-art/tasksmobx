@@ -22,7 +22,7 @@ abstract class _ListStore with Store {
   }
 
   @observable
-  late ObservableList tasks;
+  ObservableList? tasks;
 
   @observable
   String newTodoTitle = "";
@@ -52,7 +52,7 @@ abstract class _ListStore with Store {
           date: DateTime.now().toString(),
         ),
       );
-      tasks.add(data);
+      tasks!.add(data);
     } else if (recover != null && edit == null) {
       var data = await repository.create(
         TodoModel(
@@ -60,7 +60,7 @@ abstract class _ListStore with Store {
           date: recover.date,
         ),
       );
-      tasks.add(data);
+      tasks!.add(data);
     } else {
       tasks = await repository.update(
         TodoModel(
