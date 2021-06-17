@@ -1,4 +1,4 @@
-<h1>Lista de Tarefas com Mobx e SQFlite</h1> 
+<h1>Lista de Tarefas com Mobx e SQFlite - Null Safety</h1> 
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=dart&message=language&color=blue&style=for-the-badge&logo=DART"/>  
@@ -36,7 +36,9 @@
 ## 💻 Descrição do projeto 
 
 <p align="justify">
-  Projeto realizado em Flutter, referente a um gerenciador de tarefas utilizando o banco de dados local SQFlite e a gerencia de estados MOBx. 
+  Projeto realizado em Flutter, referente a um gerenciador de tarefas utilizando o banco de dados local SQFlite e a gerencia de estados MOBx - Null Safety.
+
+  Atenção para realizar o login podesse utilizar qualquer e-mail desde que seja válido e qualquer senha que tenha mais de 3 caracteres.   
 </p>
 
 ---
@@ -45,7 +47,7 @@
 
 :heavy_check_mark: Tela splash screen.  
 
-:heavy_check_mark: Tela de Login, com validação de e-mail e senha.  
+:heavy_check_mark: Tela de Login, com validação de e-mail e senha.
 
 :heavy_check_mark: Tela Home, com a opção de incluir, atualizar e excluir uma tarefa.  
 
